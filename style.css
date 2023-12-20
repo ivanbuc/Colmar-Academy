@@ -7,6 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* Navigation Bar */
 nav {
     display: flex;
     height: 64px;
@@ -15,19 +16,19 @@ nav {
     align-items: center;
 }
 
-nav .logo {
+.logo {
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     height: 32px;
 }
 
-nav .logo p {
+.logo p {
     font-weight: bold;
     color: rgb(71, 70, 70);
 }
 
-nav .logo span {
+.logo span {
     color: rgb(96, 96, 96);
 }
 
