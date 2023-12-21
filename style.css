@@ -55,6 +55,24 @@ nav ul li a {
     align-items: center;
 }
 
+/* Banner */
+header {
+    background-color: silver;
+    display: flex;
+}
+
+.banner-img img {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.banner-text {
+    background-color: aqua;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Responsive Breakpoint */
 @media screen and (max-width: 576px) {
     .desktop-nav {
