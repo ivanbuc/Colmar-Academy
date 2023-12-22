@@ -57,20 +57,37 @@ nav ul li a {
 
 /* Banner */
 header {
-    background-color: silver;
     display: flex;
+    align-items: center;
+    background-color: silver;
 }
 
-.banner-img img {
+.banner-img {
     width: 60%;
     padding: 32px 24px;
 }
 
+.banner-img img {
+    width: 100%;
+}
+
 .banner-text {
-    background-color: aqua;
-    flex: 1;
     display: flex;
+    font-weight: bold;
     flex-direction: column;
+    width: 40%;
+    margin-right: 76px;
+    color: rgb(58, 57, 57);
+    gap: 18px;
+}
+
+.button {
+    background-color: rgb(58, 57, 57);
+    border: none;
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+    text-align: center;
 }
 
 /* Responsive Breakpoint */
