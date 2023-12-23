@@ -92,11 +92,27 @@ header {
 
 /* Responsive Breakpoint */
 @media screen and (max-width: 576px) {
+    /* navigation bar */
     .desktop-nav {
         display: none;
     }
     .mobile-nav {
         display: block;
     }
+    /* banner */
+    header {
+        flex-direction: column;
+    }
+    .banner-img {
+        padding: 0;
+        width: 100%;
+    }
+    .banner-text {
+        margin-left: 76px;
+        width: 100%;
+        padding: 32px;
+        background-color: aqua;
+    }
+
 }
     
