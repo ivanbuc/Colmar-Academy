@@ -94,6 +94,7 @@ header {
 /* Information Section */
 .information {
     display: flex;
+    padding: 32px 0;
 }
 
 .news-left {
@@ -101,8 +102,16 @@ header {
 }
 
 .news-left img {
-    padding: 32px 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
     width: 100%;
+}
+
+.newsleft-text {
+    font-size: small;
+    padding-left: 24px;
+
 }
 
 .news-right {
@@ -111,14 +120,18 @@ header {
 
 .side-news {
     display: flex;
+ 
 }
 
 .side-news img {
+    height: auto;
     width: 35%;
     padding: 16px;
 }
 .text-sidenews {
     width: 65%;
+    font-size: x-small;
+    gap: 8px;
 }
 
 /* Responsive Breakpoint */
